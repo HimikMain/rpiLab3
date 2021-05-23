@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	background-color: #9999;
 	font-family: 'Rubik', sans-serif;
-	font-size: 14px;
+	font-size: 1rem;
 	сolor: #F2F3F4;
 	overflow-x:hidden; 
 }
@@ -16,7 +16,7 @@ body {
 	/* Header */
 .header {
 	position: center;
-	 top: 0vh;
+	 top: 0rem;
 	 max-width: 100%;
 	 background-color:#FFFAFA;
 }
@@ -28,9 +28,9 @@ body {
 	/* Nav */
 .nav {
 	text-transform: uppercase;
-	font-size: 2vh;
+	font-size: 1rem;
 	max-width: 100%;
-	line-height: 6vh;
+	line-height: 3rem;
 }
 
 .nav_link {
