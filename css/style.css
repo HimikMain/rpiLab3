@@ -170,3 +170,38 @@ line-height: 1.5em;
 	background: url(https://snipp.ru/img/plus.png) 0 0 no-repeat;
 	opacity: 0.2;
 }
+	/* Authors */
+.authors {
+	margin-top:4vh;
+	background-color:#FFFAFA;
+	width:80%;
+	height:40rem;
+	margin-left:10%;
+	margin-bottom:2%;
+}
+	/* Authors__title */
+.authors__title {
+	text-align:center;
+	font-size:3rem;
+	padding:0.3rem;
+}
+	/* Authors__block */
+.authors__block {
+	display: inline-block;
+	justify-content:space-between;
+	margin:5%;
+	text-align:center;
+}
+	/* Authors__name */
+.authors__name {
+	font-size:2rem;
+	font-style:bold;
+	margin:0 auto;
+}
+
+	/* Authors__text */
+.authors__text {
+	position: absolute;
+	font-size:1rem;
+	margin:0 auto;
+}
