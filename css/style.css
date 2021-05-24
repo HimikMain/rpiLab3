@@ -132,7 +132,8 @@ body {
 	left: 0;   
 	background: transparent;
 	background-image: linear-gradient(to bottom, #708090, #2F4F4F); 
-	opacity: 0.8;
+	opacity: 0.4;
+	z-index: 0;
 }
 .linker:before {
 	content: "";
@@ -155,6 +156,7 @@ display:none;
 opacity:1;
 text-align:center;
 line-height: 1.5em;
+z-index: 1;
 }
 
 	/* Plus */
@@ -178,6 +180,7 @@ line-height: 1.5em;
 	height:40rem;
 	margin-left:10%;
 	margin-bottom:2%;
+	text-align:center;
 }
 	/* Authors__title */
 .authors__title {
@@ -188,6 +191,7 @@ line-height: 1.5em;
 	/* Authors__block */
 .authors__block {
 	display: inline-block;
+	vertical-align: middle;
 	justify-content:space-between;
 	margin:5%;
 	text-align:center;
