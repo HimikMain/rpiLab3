@@ -5,149 +5,186 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="../../img/avaPis.png" class="ava">
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>Временная шкала для сайта с помощью jQuery и CSS3</title>
-<link media="screen" href="demo/styles/demo.css" type="text/css" rel="stylesheet" />
+
+	<title>Владимир Короткевич</title>
+	<link media="screen" href="demo/styles/demo.css" type="text/css" rel="stylesheet" />
+	<style>
+		.slide1 { background-image: url("http://www.dubrovno.by/wp-content/uploads/2020/11/912015ead1d18e8b7dda23b99687576f-768x512.jpg"); }
+		.slide2 { background-image: url("http://www.nlb.by/upload/medialibrary/ff7/belkniha_2.jpg"); }
+		.slide3 { background-image: url("https://planetabelarus.by/upload/medialibrary/4e4/4e436a2e66f939fde230811621bf43ed.jpg");}
+		.slide4 { background-image: url("http://s1.gallery.aystatic.by/650/510/700/5019/5019700510_1.jpg");}
+	</style>
 </head>
 <body>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Karatkievich_student.jpg/165px-Karatkievich_student.jpg" alt=""/>
-<br>
-<p>
-Белорусский писатель и поэт, драматург и сценарист, публицист и эссеист, критик и переводчик. Его произведения пользовались и пользуются невероятной популярностью. Его книги переведены на десятки языков мира, а сам он и по сей день является одним из самых читаемых белорусских авторов.
+	<header class ="header">
+		<nav class = "nav">
+			<a class="nav_link" href="../../index.html">Главная страница</a>
+			<a class="nav_link" href="../../index2.html">Список писателей</a>
+		</nav>
+	</header>
+	<p class="imgPis"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Karatkievich_student.jpg/165px-Karatkievich_student.jpg" alt=""/></p>
+	<br>
+	<div class="blockDescript">
+		<p class="lilDescript">
+			Белорусский писатель и поэт, драматург и сценарист, публицист и эссеист, критик и переводчик. Его произведения пользовались и пользуются невероятной популярностью. Его книги переведены на десятки языков мира, а сам он и по сей день является одним из самых читаемых белорусских авторов.
 
-Проза Короткевича разноплановая, глубокая, напряженная. Писатель дополнил национальную литературу новыми темами, жанрами (первый хоррор и первый готический роман), философско-интеллектуальным содержанием. Первым в белорусской литературе он поднял неизвестные глубинные пласты отечественной истории, нарисовал неповторимые образы и характеры. 
-</p>
-<!--Конец кода для демонстрации -->
-<section class="cd-horizontal-timeline">
-	<div class="timeline">
-		<div class="events-wrapper">
-			<div class="events">
-				<ol>
-					<li><a href="#0" data-date="01/01/1930" class="selected">26 ноября 1930год</a></li>
-					<li><a href="#0" data-date="01/01/1957">1957</a></li>
-					<li><a href="#0" data-date="01/01/1958">1958</a></li>
-					<li><a href="#0" data-date="01/01/1960">1960-1962</a></li>
-					<li><a href="#0" data-date="01/01/1962">1962-1964</a></li>
-					<li><a href="#0" data-date="01/01/1964">1964</a></li>
-					<li><a href="#0" data-date="01/01/1965">1965-1966</a></li>
-					<li><a href="#0" data-date="01/01/1967">1967</a></li>
-					<li><a href="#0" data-date="01/01/1973">1973</a></li>
-					<li><a href="#0" data-date="01/01/1978">1978</a></li>
-					<li><a href="#0" data-date="01/01/1979">1979</a></li>
-					
-					
-				</ol>
+			Проза Короткевича разноплановая, глубокая, напряженная. Писатель дополнил национальную литературу новыми темами, жанрами (первый хоррор и первый готический роман), философско-интеллектуальным содержанием. Первым в белорусской литературе он поднял неизвестные глубинные пласты отечественной истории, нарисовал неповторимые образы и характеры. 
+		</p>
+	</div>
+	<!--Конец кода для демонстрации -->
+	<section class="cd-horizontal-timeline">
+		<div class="timeline">
+			<div class="events-wrapper">
+				<div class="events">
+					<ol>
+						<li><a href="#0" data-date="01/01/1930" class="selected">26 ноября 1930год</a></li>
+						<li><a href="#0" data-date="01/01/1957">1957</a></li>
+						<li><a href="#0" data-date="01/01/1958">1958</a></li>
+						<li><a href="#0" data-date="01/01/1960">1960-1962</a></li>
+						<li><a href="#0" data-date="01/01/1962">1962-1964</a></li>
+						<li><a href="#0" data-date="01/01/1964">1964</a></li>
+						<li><a href="#0" data-date="01/01/1965">1965-1966</a></li>
+						<li><a href="#0" data-date="01/01/1967">1967</a></li>
+						<li><a href="#0" data-date="01/01/1973">1973</a></li>
+						<li><a href="#0" data-date="01/01/1978">1978</a></li>
+						<li><a href="#0" data-date="01/01/1979">1979</a></li>
 
-				<span class="filling-line" aria-hidden="true"></span>
-			</div> <!-- .events -->
-		</div> <!-- .events-wrapper -->
-			
-		<ul class="cd-timeline-navigation">
-			<li><a href="#0" class="prev inactive">Назад</a></li>
-			<li><a href="#0" class="next">Вперед</a></li>
-		</ul> <!-- .cd-timeline-navigation -->
-	</div> <!-- .timeline -->
 
-	<div class="events-content">
-		<ol>
-			<li class="selected" data-date="16/01/2014">
-				<h2>Рождение поэта</h2>
-				<em>26 ноября 1930 год</em>
-				<p>	
-				Владимир Короткевич родился 26 ноября 1930 года в Орше в семье служащего. Ребенком изведал эвакуацию от гитлеровской оккупации: сначала в Пермской области, потом – в Оренбурге. Вернувшись на Родину, окончил среднюю школу в родной Орше, которой очень гордился. За новыми знаниями отправился в Киев, в университет имени Тараса Шевченко. В 1954-м окончил учебу на филологическом факультете КГУ и по распределению отправился в украинскую деревню Лесовичи под Киевом. Потом еще два года отработал в   Орше, а в 1958-м поступил на литературные курсы в Москве, а затем окончил в столице СССР и Высшие сценарные курсы.
-					</p>
-			</li>
+					</ol>
 
-			<li data-date="01/01/1958">
-				<h2>Начало творчества</h2>
-				
-				<p>	
-				В годы учебы много писал, печатался сначала в районной оршанской газете, затем – в журнале «Пламя». В 1958 году увидел свет его первый поэтический сборник «Матчына душа». Были еще сборники стихов «Вячэрнія ветразі», «Мая Іліяда», «Быў.Ёсць.Буду» (посмертный).
-					</p>
-			</li>
+					<span class="filling-line" aria-hidden="true"></span>
+				</div> <!-- .events -->
+			</div> <!-- .events-wrapper -->
+			
+			<ul class="cd-timeline-navigation">
+				<li><a href="#0" class="prev inactive">Назад</a></li>
+				<li><a href="#0" class="next">Вперед</a></li>
+			</ul> <!-- .cd-timeline-navigation -->
+		</div> <!-- .timeline -->
 
-			<li data-date="01/01/1960">
-				<h2>Хронология произведений</h2>
-				<em>1960-1962 года</em>
-				<p>	
-				Леониды не вернутся к Земле (Нельзя забыть) (белор. Леаніды не вернуцца да Зямлі (Нельга забыць)) (1960—1962, издан в 1982[K 5])
+		<div class="events-content">
+			<ol>
+				<li class="selected" data-date="16/01/2014">
+					<h2>Рождение поэта</h2>
+					<em>26 ноября 1930 год</em>
+					<p>	
+						Владимир Короткевич родился 26 ноября 1930 года в Орше в семье служащего. Ребенком изведал эвакуацию от гитлеровской оккупации: сначала в Пермской области, потом – в Оренбурге. Вернувшись на Родину, окончил среднюю школу в родной Орше, которой очень гордился. За новыми знаниями отправился в Киев, в университет имени Тараса Шевченко. В 1954-м окончил учебу на филологическом факультете КГУ и по распределению отправился в украинскую деревню Лесовичи под Киевом. Потом еще два года отработал в   Орше, а в 1958-м поступил на литературные курсы в Москве, а затем окончил в столице СССР и Высшие сценарные курсы.
 					</p>
-			</li>
-			
-			<li data-date="01/01/1962">
-				<h2>Хронология произведений</h2>
-				<em>1962-1964 года</em>
-				<p>	
-				Колосья под серпом твоим (белор. Каласы пад сярпом тваім) (1962—1964, изд. 1965)
+				</li>
+
+				<li data-date="01/01/1958">
+					<h2>Начало творчества</h2>
+
+					<p>	
+						В годы учебы много писал, печатался сначала в районной оршанской газете, затем – в журнале «Пламя». В 1958 году увидел свет его первый поэтический сборник «Матчына душа». Были еще сборники стихов «Вячэрнія ветразі», «Мая Іліяда», «Быў.Ёсць.Буду» (посмертный).
 					</p>
-			</li>
-			
-			<li data-date="01/01/1965">
-				<h2>Хронология произведений</h2>
-				<em>1965-1966 года</em>
-				<p>	
-				Христос приземлился в Гродно (белор. Хрыстос прызямліўся ў Гародні) (1965—1966)
+				</li>
+
+				<li data-date="01/01/1960">
+					<h2>Хронология произведений</h2>
+					<em>1960-1962 года</em>
+					<p>	
+						Леониды не вернутся к Земле (Нельзя забыть) (белор. Леаніды не вернуцца да Зямлі (Нельга забыць)) (1960—1962, издан в 1982[K 5])
 					</p>
-			</li>
-			
-			<li data-date="01/01/1957">
-				<h2>Хронология произведений</h2>
-				<em>1957 год</em>
-				<p>	
-				В снегах дремлет весна (белор. У снягах драмае вясна) (1957, опубликовано в 1989)
+				</li>
+
+				<li data-date="01/01/1962">
+					<h2>Хронология произведений</h2>
+					<em>1962-1964 года</em>
+					<p>	
+						Колосья под серпом твоим (белор. Каласы пад сярпом тваім) (1962—1964, изд. 1965)
 					</p>
-			</li>
-			
-			
-			
-			
-			<li data-date="01/01/1964">
-				<h2>Хронология произведений</h2>
-				<em>1964 год</em>
-				<p>	
-				Оружие (белор. Зброя) (1964, издана в 1981). Продолжение романа «Колосья под серпом твоим»
-				</p>
-			</li>
-			
-			<li data-date="01/01/1967">
-				<h2>Хронология произведений</h2>
-				<em>1967 год</em>
-				<p>	
-				Чозения (белор. Чазенія) (1967. Повесть-поэма
-				</p>
-			</li>
-			
-			<li data-date="01/01/1973">
-				<h2>Хронология произведений</h2>
-				<em>1973 год</em>
-				<p>
-				Листья каштанов (белор. Лісце каштанаў) (1973)				
-				</p>
-			</li>
-			
-			<li data-date="01/01/1978">
-				<h2>Хронология произведений</h2>
-				<em>1978 год</em>
-				<p>
-				Ладья Отчаяния (белор. Ладдзя Роспачы)[K 6] (1978)
-				</p>
-			</li>
-			
-		</ol>
-	</div> <!-- .events-content -->
-</section>
-	
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/9UIt_HLlbxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	
-	<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abeaa6718c8974857957262f29c8cbd74c12a9e83e64142d6b6f8420b3ba97ff1&amp;source=constructor" width="550" height="500" frameborder="0"></iframe>
-	
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/jquery.mobile.custom.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+				</li>
+
+				<li data-date="01/01/1965">
+					<h2>Хронология произведений</h2>
+					<em>1965-1966 года</em>
+					<p>	
+						Христос приземлился в Гродно (белор. Хрыстос прызямліўся ў Гародні) (1965—1966)
+					</p>
+				</li>
+
+				<li data-date="01/01/1957">
+					<h2>Хронология произведений</h2>
+					<em>1957 год</em>
+					<p>	
+						В снегах дремлет весна (белор. У снягах драмае вясна) (1957, опубликовано в 1989)
+					</p>
+				</li>
+
+
+
+
+				<li data-date="01/01/1964">
+					<h2>Хронология произведений</h2>
+					<em>1964 год</em>
+					<p>	
+						Оружие (белор. Зброя) (1964, издана в 1981). Продолжение романа «Колосья под серпом твоим»
+					</p>
+				</li>
+
+				<li data-date="01/01/1967">
+					<h2>Хронология произведений</h2>
+					<em>1967 год</em>
+					<p>	
+						Чозения (белор. Чазенія) (1967. Повесть-поэма
+					</p>
+				</li>
+
+				<li data-date="01/01/1973">
+					<h2>Хронология произведений</h2>
+					<em>1973 год</em>
+					<p>
+						Листья каштанов (белор. Лісце каштанаў) (1973)				
+					</p>
+				</li>
+
+				<li data-date="01/01/1978">
+					<h2>Хронология произведений</h2>
+					<em>1978 год</em>
+					<p>
+						Ладья Отчаяния (белор. Ладдзя Роспачы)[K 6] (1978)
+					</p>
+				</li>
+
+			</ol>
+		</div> <!-- .events-content -->
+	</section>
+
+	<div class="slideShow">
+		<input type="radio" name="point" id="slide1" checked>
+		<input type="radio" name="point" id="slide2">
+		<input type="radio" name="point" id="slide3">
+		<input type="radio" name="point" id="slide4">
+		<div class="slider">
+			<div class="slides slide1"></div>
+			<div class="slides slide2"></div>
+			<div class="slides slide3"></div>
+			<div class="slides slide4"></div>
+		</div>	
+		<div class="controls">
+			<label for="slide1"></label>
+			<label for="slide2"></label>
+			<label for="slide3"></label>
+			<label for="slide4"></label>
+		</div>
+	</div>
+
+	<div class="iFrame">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/9UIt_HLlbxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="iFrame">
+		<p style="margin-bottom: 10px">Карта деятельности Короткевича</p>
+		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abeaa6718c8974857957262f29c8cbd74c12a9e83e64142d6b6f8420b3ba97ff1&amp;source=constructor" width="550" height="500" frameborder="0"></iframe>
+	</div>
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/jquery.mobile.custom.min.js"></script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
 
 
 

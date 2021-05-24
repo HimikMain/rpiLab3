@@ -5,108 +5,149 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="../../img/avaPis.png" class="ava">
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>Временная шкала для сайта с помощью jQuery и CSS3</title>
-<link media="screen" href="demo/styles/demo.css" type="text/css" rel="stylesheet" />
+	
+	<title>Светлана Алексиевич</title>
+	<link media="screen" href="demo/styles/demo.css" type="text/css" rel="stylesheet" />
+	<style>
+		.slide1 { background-image: url("http://data8.i.gallery.ru/albums/gallery/84377-b8c1d-17419394-m750x740.jpg"); }
+		.slide2 { background-image: url("https://cdn-4.brodude.ru/l9psoUTuhIxD1HEy4Ih8quG4mzapaEn8EkeyAr1ofkg/rs:fill:1090:650:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzA1LzQvYnJvZHVkZS5ydV80LjA1LjIwMThfNE9lNmwxaUJhbnlzZi5wbmc"); }
+		.slide3 { background-image: url("https://avatars.mds.yandex.net/get-zen_doc/1131118/pub_5fc94d5aeb95a5373412c64a_5fc950f36bcad04cbcb99ca1/scale_1200");}
+		.slide4 { background-image: url("https://media-polesye.by/files/field/image/6dsc_5496.jpg");}
+	</style>
 </head>
 <body>
-<img src="https://www.belta.by/images/storage/news/with_archive/2018/000027_1527739953_304880_big.jpg" alt=""/>
-<br>
-<p>
-Светла́на Алекса́ндровна Алексие́вич (белор. Святлана Аляксандраўна Алексіевіч, род. 31 мая 1948 года, Станислав, Украинская ССР, СССР) — советская и белорусская писательница, журналистка, сценарист документальных фильмов[4]. Пишет на русском языке. Первый белорусский и шестой русскоязычный лауреат Нобелевской премии по литературе (2015 год)[5].
 
-Наибольшую известность получили её книги в жанре художественно-документальной прозы «У войны не женское лицо», «Цинковые мальчики», «Чернобыльская молитва», «Время секонд хэнд».
-</p>
-<!--Конец кода для демонстрации -->
-<section class="cd-horizontal-timeline">
-	<div class="timeline">
-		<div class="events-wrapper">
-			<div class="events">
-				<ol>
-					<li><a href="#0" data-date="01/01/1948" class="selected">31 мая 1948 год</a></li>
-					<li><a href="#0" data-date="01/01/1983">1983</a></li>
-					<li><a href="#0" data-date="01/01/1985">1985</a></li>
-					<li><a href="#0" data-date="01/01/1989">1989</a></li>
-					<li><a href="#0" data-date="01/01/2013">2013</a></li>
-					<li><a href="#0" data-date="01/01/2015">2015</a></li>
-					
-				</ol>
+	<header class ="header">
+		<nav class = "nav">
+			<a class="nav_link" href="../../index.html">Главная страница</a>
+			<a class="nav_link" href="../../index2.html">Список писателей</a>
+		</nav>
+	</header>
 
-				<span class="filling-line" aria-hidden="true"></span>
-			</div> <!-- .events -->
-		</div> <!-- .events-wrapper -->
+	<p class="imgPis"><img src="https://www.belta.by/images/storage/news/with_archive/2018/000027_1527739953_304880_big.jpg" alt=""/></p>
+	<br>
+	<div class="blockDescript">
+		<p class="lilDescript">
+			Светла́на Алекса́ндровна Алексие́вич (белор. Святлана Аляксандраўна Алексіевіч, род. 31 мая 1948 года, Станислав, Украинская ССР, СССР) — советская и белорусская писательница, журналистка, сценарист документальных фильмов. Пишет на русском языке. Первый белорусский и шестой русскоязычный лауреат Нобелевской премии по литературе (2015 год).
+
+			Наибольшую известность получили её книги в жанре художественно-документальной прозы «У войны не женское лицо», «Цинковые мальчики», «Чернобыльская молитва», «Время секонд хэнд».
+		</p>
+	</div>
+	<!--Конец кода для демонстрации -->
+	<section class="cd-horizontal-timeline">
+		<div class="timeline">
+			<div class="events-wrapper">
+				<div class="events">
+					<ol>
+						<li><a href="#0" data-date="01/01/1948" class="selected">31 мая 1948 год</a></li>
+						<li><a href="#0" data-date="01/01/1983">1983</a></li>
+						<li><a href="#0" data-date="01/01/1985">1985</a></li>
+						<li><a href="#0" data-date="01/01/1989">1989</a></li>
+						<li><a href="#0" data-date="01/01/2013">2013</a></li>
+						<li><a href="#0" data-date="01/01/2015">2015</a></li>
+						
+					</ol>
+
+					<span class="filling-line" aria-hidden="true"></span>
+				</div> <!-- .events -->
+			</div> <!-- .events-wrapper -->
 			
-		<ul class="cd-timeline-navigation">
-			<li><a href="#0" class="prev inactive">Назад</a></li>
-			<li><a href="#0" class="next">Вперед</a></li>
-		</ul> <!-- .cd-timeline-navigation -->
-	</div> <!-- .timeline -->
+			<ul class="cd-timeline-navigation">
+				<li><a href="#0" class="prev inactive">Назад</a></li>
+				<li><a href="#0" class="next">Вперед</a></li>
+			</ul> <!-- .cd-timeline-navigation -->
+		</div> <!-- .timeline -->
 
-	<div class="events-content">
-		<ol>
-			<li class="selected" data-date="01/01/1948">
-				<h2>Рождение поэта</h2>
-				<em>31 мая 1948 года</em>
-				<p>	
-				Родилась 31 мая 1948 года в Станиславе. Отец — белорус, мать — украинка из Галиции[9][10]. После демобилизации отца семья переехала в Минск, отец и мать работали сельскими учителями. Мать отца умерла от тифа в партизанах, из троих её сыновей двое пропали без вести, а отец вернулся с фронта. Отец матери погиб на фронте[11]. Прадед отца тоже был сельским учителем[9]. По её словам, всё своё детство провела в украинском селе, в Винницкой области[12].
-				</p>
-			</li>
-
-			<li data-date="01/01/1983">
-				<h2>Первая книга</h2>
-				<em>1983 год</em>
-				<p>	
-				Первая опубликованная книга Алексиевич, «У войны не женское лицо», была написана в 1983 году. Эта документальная повесть, основанная на интервью с советскими женщинами, участвовавшими в Великой Отечественной войне, была впервые опубликована в журнале «Октябрь» в начале 1984 года (в журнальном варианте)[27], ещё несколько глав вышли в том же году в журнале «Нёман».
+		<div class="events-content">
+			<ol>
+				<li class="selected" data-date="01/01/1948">
+					<h2>Рождение поэта</h2>
+					<em>31 мая 1948 года</em>
+					<p>	
+						Родилась 31 мая 1948 года в Станиславе. Отец — белорус, мать — украинка из Галиции[9][10]. После демобилизации отца семья переехала в Минск, отец и мать работали сельскими учителями. Мать отца умерла от тифа в партизанах, из троих её сыновей двое пропали без вести, а отец вернулся с фронта. Отец матери погиб на фронте[11]. Прадед отца тоже был сельским учителем[9]. По её словам, всё своё детство провела в украинском селе, в Винницкой области[12].
 					</p>
-			</li>
-			
-			<li data-date="01/01/1985">
-				<h2>Вторая книга</h2>
-				<em>1985 год</em>
-				<p>	
-				Вторая книга писательницы, «Последние свидетели: книга недетских рассказов» (1985, в последующих изданиях использовались варианты подзаголовка «Соло для детского голоса», «Сто недетских колыбельных», «100 недетских рассказов») основана на воспоминаниях детей, которым во время Великой отечественной войны было от шести до двенадцати лет. Это свидетельства «невозможности пережить память травмы»[30].
-				</p>
-			</li>
-			
-			<li data-date="01/01/1989">
-				<h2>Третья книга</h2>
-				<em>1989 год</em>
-				<p>	
-				Третья книга, «Цинковые мальчики» (1989), посвящена Афганской войне и названа так потому, что тела погибших солдат доставлялись на родину в цинковых гробах. Основанием для книги стали интервью с матерями погибших солдат, а также с вернувшимися с войны участниками афганской кампании.
-				</p>
-			</li>
-			
-			<li data-date="01/01/2013">
-				<h2>Претендент на Нобелевскую примию</h2>
-				<em>2013 год</em>
-				<p>	
-				В 2013 году Светлана Алексиевич считалась одним из претендентов на Нобелевскую премию по литературе[41], однако премию получила канадская писательница Элис Манро.
-				</p>
-			</li>
-			
-			<li data-date="01/01/2015">
-				<h2>Нобелевская примия</h2>
-				<em>2015 год</em>
-				<p>
-В 2015 году Алексиевич стала лауреатом Нобелевской премии по литературе с формулировкой «за её многоголосное творчество — памятник страданию и мужеству в наше время»[5][42]. Светлана Алексиевич — первый нобелевский лауреат в истории независимой Белоруссии; она стала первым с 1987 года русскоязычным писателем, удостоенным Нобелевской премии по литературе[43]. Впервые за полвека премия была присуждена писателю, преимущественно работающему в жанре документальной литературы; при этом впервые в истории Нобелевская премия по литературе присуждена профессиональному журналисту[44]. Денежный приз премии составил 8 млн шведских крон (около 953 тыс. долларов на момент присуждения)[45].				
-				</p>
-			</li>
-			
-		</ol>
-	</div> <!-- .events-content -->
-</section>
+				</li>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aQI2QPK-nQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	
-	<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abeaa6718c8974857957262f29c8cbd74c12a9e83e64142d6b6f8420b3ba97ff1&amp;source=constructor" width="550" height="500" frameborder="0"></iframe>
-	
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/jquery.mobile.custom.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+				<li data-date="01/01/1983">
+					<h2>Первая книга</h2>
+					<em>1983 год</em>
+					<p>	
+						Первая опубликованная книга Алексиевич, «У войны не женское лицо», была написана в 1983 году. Эта документальная повесть, основанная на интервью с советскими женщинами, участвовавшими в Великой Отечественной войне, была впервые опубликована в журнале «Октябрь» в начале 1984 года (в журнальном варианте)[27], ещё несколько глав вышли в том же году в журнале «Нёман».
+					</p>
+				</li>
+				
+				<li data-date="01/01/1985">
+					<h2>Вторая книга</h2>
+					<em>1985 год</em>
+					<p>	
+						Вторая книга писательницы, «Последние свидетели: книга недетских рассказов» (1985, в последующих изданиях использовались варианты подзаголовка «Соло для детского голоса», «Сто недетских колыбельных», «100 недетских рассказов») основана на воспоминаниях детей, которым во время Великой отечественной войны было от шести до двенадцати лет. Это свидетельства «невозможности пережить память травмы»[30].
+					</p>
+				</li>
+				
+				<li data-date="01/01/1989">
+					<h2>Третья книга</h2>
+					<em>1989 год</em>
+					<p>	
+						Третья книга, «Цинковые мальчики» (1989), посвящена Афганской войне и названа так потому, что тела погибших солдат доставлялись на родину в цинковых гробах. Основанием для книги стали интервью с матерями погибших солдат, а также с вернувшимися с войны участниками афганской кампании.
+					</p>
+				</li>
+				
+				<li data-date="01/01/2013">
+					<h2>Претендент на Нобелевскую примию</h2>
+					<em>2013 год</em>
+					<p>	
+						В 2013 году Светлана Алексиевич считалась одним из претендентов на Нобелевскую премию по литературе[41], однако премию получила канадская писательница Элис Манро.
+					</p>
+				</li>
+				
+				<li data-date="01/01/2015">
+					<h2>Нобелевская примия</h2>
+					<em>2015 год</em>
+					<p>
+						В 2015 году Алексиевич стала лауреатом Нобелевской премии по литературе с формулировкой «за её многоголосное творчество — памятник страданию и мужеству в наше время»[5][42]. Светлана Алексиевич — первый нобелевский лауреат в истории независимой Белоруссии; она стала первым с 1987 года русскоязычным писателем, удостоенным Нобелевской премии по литературе[43]. Впервые за полвека премия была присуждена писателю, преимущественно работающему в жанре документальной литературы; при этом впервые в истории Нобелевская премия по литературе присуждена профессиональному журналисту[44]. Денежный приз премии составил 8 млн шведских крон (около 953 тыс. долларов на момент присуждения)[45].				
+					</p>
+				</li>
+				
+			</ol>
+		</div> <!-- .events-content -->
+	</section>
+
+	<div class="slideShow">
+		<input type="radio" name="point" id="slide1" checked>
+		<input type="radio" name="point" id="slide2">
+		<input type="radio" name="point" id="slide3">
+		<input type="radio" name="point" id="slide4">
+		<div class="slider">
+			<div class="slides slide1"></div>
+			<div class="slides slide2"></div>
+			<div class="slides slide3"></div>
+			<div class="slides slide4"></div>
+		</div>	
+		<div class="controls">
+			<label for="slide1"></label>
+			<label for="slide2"></label>
+			<label for="slide3"></label>
+			<label for="slide4"></label>
+		</div>
+	</div>
+
+	<div class="iFrame">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/aQI2QPK-nQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+	<div class="iFrame">
+		<p style="margin-bottom: 10px">Карта деятельности Алексиевич</p>
+		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abeaa6718c8974857957262f29c8cbd74c12a9e83e64142d6b6f8420b3ba97ff1&amp;source=constructor" width="550" height="500" frameborder="0"></iframe>
+	</div>
+
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/jquery.mobile.custom.min.js"></script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
 
 
 

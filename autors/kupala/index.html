@@ -5,114 +5,151 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="../../img/avaPis.png" class="ava">
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>Временная шкала для сайта с помощью jQuery и CSS3</title>
-<link media="screen" href="demo/styles/demo.css" type="text/css" rel="stylesheet" />
+
+	<title>Янка Купала</title>
+	<link media="screen" href="demo/styles/demo.css" type="text/css" rel="stylesheet" />
+	<style>
+		.slide1 { background-image: url("https://vid1.ria.ru/ig/infografika/Sputnik/bel/KUPALARUS/images/tild6331-3433-4637-a437-336263313534__noroot.jpg"); }
+		.slide2 { background-image: url("https://pbs.twimg.com/media/DQWWnxeXcAE1pEc.jpg:large"); }
+		.slide3 { background-image: url("https://probelarus.by/images/thumbs/6645/51.jpg"); }
+		.slide4 { background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Paulinka.pdf/page3-697px-Paulinka.pdf.jpg");}
+	</style>
 </head>
 <body>
-<img src="https://faktoved.ru/wp-content/uploads/fakti-o-yanke-kupala.jpg" alt=""/>
-<br>
-<p>
-Янка Кучала (истинное имя Ветлан Доминикович Луцевич, белор. ван Дамнкавч Луцэвч; 25 июня (7 июля) 1882  28 июня 1942)  белорусский поэт и переводчик, драматург, публицист.
+	<header class ="header">
+		<nav class = "nav">
+			<a class="nav_link" href="../../index.html">Главная страница</a>
+			<a class="nav_link" href="../../index2.html">Список писателей</a>
+		</nav>
+	</header>
+	<p class="imgPis"><img src="https://faktoved.ru/wp-content/uploads/fakti-o-yanke-kupala.jpg" alt=""/></p>
+	<br>
+	<div class="blockDescript">
+		<p class="lilDescript">
+			Янка Кучала (истинное имя Ветлан Доминикович Луцевич, белор. ван Дамнкавч Луцэвч; 25 июня (7 июля) 1882  28 июня 1942)  белорусский поэт и переводчик, драматург, публицист.
 
-Классик белорусской литературы. Народный поэт БССР (1925). Академик АН БССР (1928) и АН УССР (1929). Родился 25 июня (7 июля) 1882 года в деревне Вязынка (нынче Молодечненского района Минской области Беларуси) в семье Доминика Онуфриевича Луцевича и Бенигны Ивановны Луцевич (дев. Волосевич).
-</p>
+			Классик белорусской литературы. Народный поэт БССР (1925). Академик АН БССР (1928) и АН УССР (1929). Родился 25 июня (7 июля) 1882 года в деревне Вязынка (нынче Молодечненского района Минской области Беларуси) в семье Доминика Онуфриевича Луцевича и Бенигны Ивановны Луцевич (дев. Волосевич).
+		</p>
+	</div>
 
-<!--Конец кода для демонстрации -->
-<section class="cd-horizontal-timeline">
-	<div class="timeline">
-		<div class="events-wrapper">
-			<div class="events">
-				<ol>
-					<li><a href="#0" data-date="25/05/1882" class="selected">25 июня 1882год</a></li>
-					<li><a href="#0" data-date="01/01/1919">1919</a></li>
-					<li><a href="#0" data-date="01/01/1925">1925</a></li>
-					<li><a href="#0" data-date="01/01/1928">1928</a></li>
-					<li><a href="#0" data-date="01/01/1929">1929</a></li>
-					<li><a href="#0" data-date="01/01/1941">1941</a></li>
-					<li><a href="#0" data-date="01/01/2003">2003</a></li>
-					
-				</ol>
+	<!--Конец кода для демонстрации -->
+	<section class="cd-horizontal-timeline">
+		<div class="timeline">
+			<div class="events-wrapper">
+				<div class="events">
+					<ol>
+						<li><a href="#0" data-date="25/05/1882" class="selected">25 июня 1882год</a></li>
+						<li><a href="#0" data-date="01/01/1919">1919</a></li>
+						<li><a href="#0" data-date="01/01/1925">1925</a></li>
+						<li><a href="#0" data-date="01/01/1928">1928</a></li>
+						<li><a href="#0" data-date="01/01/1929">1929</a></li>
+						<li><a href="#0" data-date="01/01/1941">1941</a></li>
+						<li><a href="#0" data-date="01/01/2003">2003</a></li>
 
-				<span class="filling-line" aria-hidden="true"></span>
-			</div> <!-- .events -->
-		</div> <!-- .events-wrapper -->
+					</ol>
+
+					<span class="filling-line" aria-hidden="true"></span>
+				</div> <!-- .events -->
+			</div> <!-- .events-wrapper -->
 			
-		<ul class="cd-timeline-navigation">
-			<li><a href="#0" class="prev inactive">Назад</a></li>
-			<li><a href="#0" class="next">Вперед</a></li>
-		</ul> <!-- .cd-timeline-navigation -->
-	</div> <!-- .timeline -->
+			<ul class="cd-timeline-navigation">
+				<li><a href="#0" class="prev inactive">Назад</a></li>
+				<li><a href="#0" class="next">Вперед</a></li>
+			</ul> <!-- .cd-timeline-navigation -->
+		</div> <!-- .timeline -->
 
-	<div class="events-content">
-		<ol>
-			<li class="selected" data-date="25/05/1882">
-				<h2>Рождение поэта</h2>
-				<em>25 июня 1882 года</em>
-				<p>	
-				Родился 25 июня 1882 года в деревне Вязынка, в Минской области, в бедной семье белорусских шляхтичей.
-				Предки были оскудевшие белорусские шляхтичи, арендовавшие земли в помещичьих угодьях. Род Луцевичей известен с начала семнадцатого века. Дед стихотворца арендовал землю у Радзивиллов, но был ими изгнан с родных мест. Этот факт лёг в основу купаловской драмы Раскданае гняздо.
+		<div class="events-content">
+			<ol>
+				<li class="selected" data-date="25/05/1882">
+					<h2>Рождение поэта</h2>
+					<em>25 июня 1882 года</em>
+					<p>	
+						Родился 25 июня 1882 года в деревне Вязынка, в Минской области, в бедной семье белорусских шляхтичей.
+						Предки были оскудевшие белорусские шляхтичи, арендовавшие земли в помещичьих угодьях. Род Луцевичей известен с начала семнадцатого века. Дед стихотворца арендовал землю у Радзивиллов, но был ими изгнан с родных мест. Этот факт лёг в основу купаловской драмы Раскданае гняздо.
 
-В детстве будущему стихотворцу приходилось много подсоблять папе, который, несмотря на своё шляхетское происхождение, по сути принадлежал к числу безземельных крестьян и принуждён был обрабатывать съёмные участки (у Здзеховских и др.), платя большие суммы в качестве аренды за внедрение угодий.
+						В детстве будущему стихотворцу приходилось много подсоблять папе, который, несмотря на своё шляхетское происхождение, по сути принадлежал к числу безземельных крестьян и принуждён был обрабатывать съёмные участки (у Здзеховских и др.), платя большие суммы в качестве аренды за внедрение угодий.
 
-После смерти отца в 1902 году, Иван был вынужден работать учителем и писарем в библиотеке. Позже он работал на винокуренном заводе, а в 1908-1909 годах - в Вильненской газете "Наша Нiва".
+						После смерти отца в 1902 году, Иван был вынужден работать учителем и писарем в библиотеке. Позже он работал на винокуренном заводе, а в 1908-1909 годах - в Вильненской газете "Наша Нiва".
 
-С 1909 по 1915 учился в Москве и Санкт - Петербурге. Позже был мобилизован в связи с началом Первой Мировой.
+						С 1909 по 1915 учился в Москве и Санкт - Петербурге. Позже был мобилизован в связи с началом Первой Мировой.
 					</p>
-			</li>
+				</li>
 
-			<li data-date="01/01/1919">
-				<h2>Переводческая деятельность</h2>
-				<p>	
-				Янка Купала занимался и активной переводческой деятельностью. В частности, им в 1919 году на белорусский язык переведено древнерусский памятник «Слово о полку Игореве», ставший первым литературным переводом на белорусский язык.
+				<li data-date="01/01/1919">
+					<h2>Переводческая деятельность</h2>
+					<p>	
+						Янка Купала занимался и активной переводческой деятельностью. В частности, им в 1919 году на белорусский язык переведено древнерусский памятник «Слово о полку Игореве», ставший первым литературным переводом на белорусский язык.
 
-Занимался другими переводами: поэмы А. С. Пушкина «Медный всадник», ряда стихотворений и поэм Т. Г. Шевченко, некоторые произведения Н. А. Некрасова, И. А. Крылова, А. В. Кольцова, А. Мицкевича, Владислава Сырокомли, М. Конопницкой, Ю. И. Крашевского, В. Броневского, Е. Жулавского и других знаковых поэтов прошлых эпох.
+						Занимался другими переводами: поэмы А. С. Пушкина «Медный всадник», ряда стихотворений и поэм Т. Г. Шевченко, некоторые произведения Н. А. Некрасова, И. А. Крылова, А. В. Кольцова, А. Мицкевича, Владислава Сырокомли, М. Конопницкой, Ю. И. Крашевского, В. Броневского, Е. Жулавского и других знаковых поэтов прошлых эпох.
 
-Также перевёл «Интернационал», польский текст в пьесах В. Дунина-Марцинкевича «Идиллия» и «Залёты», либретто оперы «Галька» С. Монюшко.
-				
+						Также перевёл «Интернационал», польский текст в пьесах В. Дунина-Марцинкевича «Идиллия» и «Залёты», либретто оперы «Галька» С. Монюшко.
+
 					</p>
-			</li>
-			
-			<li data-date="01/01/1925">
-				<h2>В 1925 был удостоен звания народного поэта БССР</h2>
-				
-			</li>
-			
-			<li data-date="01/01/1928">
-				<h2>В 1928 был удостоен звания академика АН БССР</h2>
-				
-			</li>
-			
-			<li data-date="01/01/1929">
-				<h2>В 1929 был удостоен звания академика АН УССР</h2>
-				
-			</li>
+				</li>
 
-			<li data-date="01/01/1941">
-				<h2>В 1941 стал лауреатом Сталинской премии первой степени</h2>
-				
-			</li>
-			
-			<li data-date="01/01/2003">
-				<h2>В 2003 году завершено издание полного собрания произведений Янки Купалы в 9 томах.</h2>
-				
-			</li>
-		
-		</ol>
-	</div> <!-- .events-content -->
-</section>
+				<li data-date="01/01/1925">
+					<h2>В 1925 был удостоен звания народного поэта БССР</h2>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mk746fEHn4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	
-	<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A39b9bd468b0b22da0c4a2b6bfd34298a7d6fc17933985b77048df02a3e989499&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
-	
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/jquery.mobile.custom.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+				</li>
+
+				<li data-date="01/01/1928">
+					<h2>В 1928 был удостоен звания академика АН БССР</h2>
+
+				</li>
+
+				<li data-date="01/01/1929">
+					<h2>В 1929 был удостоен звания академика АН УССР</h2>
+
+				</li>
+
+				<li data-date="01/01/1941">
+					<h2>В 1941 стал лауреатом Сталинской премии первой степени</h2>
+
+				</li>
+
+				<li data-date="01/01/2003">
+					<h2>В 2003 году завершено издание полного собрания произведений Янки Купалы в 9 томах.</h2>
+
+				</li>
+
+			</ol>
+		</div> <!-- .events-content -->
+	</section>
+
+	<div class="slideShow">
+		<input type="radio" name="point" id="slide1" checked>
+		<input type="radio" name="point" id="slide2">
+		<input type="radio" name="point" id="slide3">
+		<input type="radio" name="point" id="slide4">
+		<div class="slider">
+			<div class="slides slide1"></div>
+			<div class="slides slide2"></div>
+			<div class="slides slide3"></div>
+			<div class="slides slide4"></div>
+		</div>	
+		<div class="controls">
+			<label for="slide1"></label>
+			<label for="slide2"></label>
+			<label for="slide3"></label>
+			<label for="slide4"></label>
+		</div>
+	</div>
+
+	<div class="iFrame">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/mk746fEHn4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="iFrame">
+		<p style="margin-bottom: 10px">Карта деятельности Купалы</p>
+		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A39b9bd468b0b22da0c4a2b6bfd34298a7d6fc17933985b77048df02a3e989499&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+	</div>
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/jquery.mobile.custom.min.js"></script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
 
 
 
