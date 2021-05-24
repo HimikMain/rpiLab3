@@ -212,4 +212,21 @@ z-index: 1;
 	/* Writers */
 .writers {
 	padding:2%;
+	text-decoration: none;
+}
+
+.searchPis {
+	text-align: center;
+}
+
+.search {
+	font-size: 18px;
+}
+
+.description {
+	display: block;
+}
+
+.description li.hide{
+	display: none;
 }
