@@ -231,3 +231,13 @@ z-index: 1;
 .description li.hide{
 	display: none;
 }
+
+.changeLng {
+	height: 3rem;
+	width: 6rem;
+	padding: 0.5rem;
+	float: right;
+	border: none;
+	background-color:#F0F8FF;
+	font-size: 18px;
+}
