@@ -1,12 +1,12 @@
 var lang = localStorage.getItem('lang') || 'ru';
 
-fetch(`/lang/locale/${lang}/${lang}.js`)
-    .then(e=>e.json())
-    .then(data=>init(data))
-    .catch(e=>console.error(e));
+var path = window.location.pathname;
+var page = path.split("/").pop();
 
-let title = document.querySelector('title');
-
-let init = (data) => {
-    title.text = data['Title'];
+var language = document.createElement('script');
+if (page == 'index.html') {
+    language.setAttribute('src', `lang/locale/${lang}/${lang}.js`);
+} else if (page == 'index2.html') {
+    language.setAttribute('src', `lang/locale/${lang}/${lang}Index2.js`);
 }
+document.head.appendChild(language);
